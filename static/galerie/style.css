@@ -1,0 +1,32 @@
+body {
+        background-color: black;
+	color: white;
+	font-family: sans;
+}
+
+.blockphoto {
+	position: relative;
+}
+.photo {
+	position: relative;
+	width: 300px;
+}
+.ribon {
+	position: absolute;
+	height: 80px;
+	top: -23px;
+	left: 235px;
+}
+/* not working
+.ribon {
+	position: absolute;
+	height: 120px;
+	top: -34px;
+	left: 204px;
+}
+.ribon:hover {
+        position: relative; z-index: 999; -o-transform: scale(1.03,1.03); -ms-transform: scale(1.03,1.03); -moz-transform: scale(1.03,1.03); -webkit-transform: scale(1.03,1.03); transform: scale(1.03,1.03);
+    }
+*/
+
+
