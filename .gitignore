@@ -59,7 +59,6 @@ local_settings.py
 *.sqlite*
 *.log
 
-
 # Sphinx documentation
 docs/_build/
 
