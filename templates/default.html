@@ -1,0 +1,17 @@
+{% extends "skeleton.html" %}
+{% load i18n %}
+{% load staticfiles %}
+
+{% block content %}
+    {% for pict in picturesList %}
+      <p>
+        <div class="blockphoto">
+	<img class="fancybox" src="{{ pict.fichier.url }}"/>
+	{% if pict.sold %}
+  <img class="ribon" src="{% static "galerie/ribon2.png" %}"/>
+	{% endif %}
+	</div>
+        {{ pict.name }} : {{ pict.reference  }}
+      </p>
+    {% endfor %}
+{% endblock %}

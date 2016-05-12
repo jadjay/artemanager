@@ -1,0 +1,38 @@
+{% load i18n %}
+{% load staticfiles %}
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>
+      {% block title %}
+        {% trans "Galerie" %}
+      {% endblock %}
+    </title>
+    {% block css %}
+	<link rel="stylesheet" href="{% static 'galerie/style.css' %}">
+	<link rel="stylesheet" href="{% static 'galerie/magnify.css' %}">
+    {% endblock %}
+  </head>
+  <body>
+    <div id="container" >
+      <div id="header">
+        {% block header %}
+        {% include "header.html" %}
+        {% endblock %}
+      </div>
+      <div id="content">
+        {% block content %}
+        <h3>{% trans "Voici mon application" %} : </h3>
+        {% endblock %}
+      </div>
+      <div id="footer">
+        {% block footer %}
+        {% include "footer.html" %}
+        {% endblock %}
+      </div>
+    </div>
+    {% block js %}
+        {% include "js.html" %}
+    {% endblock %}
+  </body>
+</html>
