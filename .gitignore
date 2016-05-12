@@ -54,7 +54,6 @@ migrations/
 admin/
 uploads/
 manage.py
-settings.py
 local_settings.py
 *.sqlite*
 *.log

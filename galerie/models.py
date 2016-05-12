@@ -10,11 +10,15 @@ class pictures(models.Model):
     fichier = models.ImageField(upload_to='fichiers/')
     sold = models.BooleanField(default="False")
     price = models.DecimalField(default="0.00", max_digits=10, decimal_places=2)
+    categories = models.ManyToManyField(categories, null=True, blank=True)
 
     def __unicode__(self):
         return self.name
 
     class Meta:
-        verbose_name = 'Photographie'
-        verbose_name_plural = 'Photographies'
+        verbose_name = _('Photographie')
+        verbose_name_plural = _('Photographies')
 
+class categories(models.Model):
+    name = models.CharField(max_length=255)
+    parent = models.ForeignKey('self', null=True, blank=True, on_delete=models.CASCADE)
