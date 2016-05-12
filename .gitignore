@@ -50,13 +50,17 @@ coverage.xml
 *.pot
 
 # Django stuff:
+<<<<<<< HEAD
 migrations/
 admin/
 uploads/
 manage.py
 local_settings.py
 *.sqlite*
+=======
+>>>>>>> parent of d6491cb... Initial
 *.log
+local_settings.py
 
 # Sphinx documentation
 docs/_build/
