@@ -3,21 +3,6 @@ body {
 	color: white;
 	font-family: sans;
 }
-
-.blockphoto {
-	position: relative;
-}
-.photo {
-	display: inline-block;
-	position: relative;
-	width: 300px;
-}
-.ribon {
-	position: absolute;
-	height: 80px;
-	top: -23px;
-	left: 235px;
-}
 .textleftheader p {
 	position: absolute;
 	top: 50%;
@@ -30,11 +15,6 @@ body {
 	height: 80px;
 	margin: 10px;
 	padding: 2px 0px 2px 10px;
-/*
-	height: 32px;
-	height: inherit; 
-	padding: 1px;
-*/
 }
 .middleheader {
         background-color: DimGray;
@@ -54,6 +34,52 @@ body {
 	padding: 1px;
 }
 
+#content {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	border: 2px solid white;
+	margin: 10px;
+	padding: 1px;
+}
+.blockthemes {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	width: 50%;
+}
+.theme {
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	float: left;
+        background-color: DimGray;
+	margin: 10px;
+	padding: 1px;
+}
+.blockphoto {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	float: left;
+	width: 320px;
+}
+.photo {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	width: 300px;
+}
+.ribon {
+	position: absolute;
+	height: 80px;
+	top: -23px;
+	left: 235px;
+}
+/*
+	border: 2px solid white;
+*/
 /* not working
 .ribon {
 	position: absolute;

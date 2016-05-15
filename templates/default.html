@@ -3,9 +3,14 @@
 {% load staticfiles %}
 
 {% block content %}
+{% block contentleft %}
+  {% include "contentleft.html" %}
+{% endblock %}
+{% block contentright %}
+    <div class="blockphoto">
     {% for pict in picturesList %}
       <p>
-        <div class="blockphoto">
+        <div class="photo">
 	<img class="fancybox" src="{{ pict.fichier.url }}"/>
 	{% if pict.sold %}
   <img class="ribon" src="{% static "galerie/ribon2.png" %}"/>
@@ -14,4 +19,6 @@
         {{ pict.name }} : {{ pict.reference  }}
       </p>
     {% endfor %}
+	</div>
+{% endblock %}
 {% endblock %}

@@ -123,6 +123,8 @@ USE_TZ = True
 LANGUAGES = [
     ( 'en', _('English') ),
     ( 'fr', _('French') ),
+    ( 'es', _('Spanish') ),
+    ( 'rc', _('Reunionese') ),
 ]
 
 # directory that will host po and mo files
@@ -136,4 +138,4 @@ LOCALE_PATHS = (
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')
-MEDIA_URL = '/media/'
+MEDIA_URL = '/uploads/'

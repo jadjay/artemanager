@@ -2,7 +2,7 @@ from django.utils.translation import gettext_lazy as _
 
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
-from .models import pictures
+from .models import pictures, themes
 from django.contrib.auth.decorators import login_required
 from django.template import RequestContext
 
@@ -13,7 +13,13 @@ def test(request):
 
 def default(request):
     picturesList = pictures.objects.all
-    context = { 'picturesList': picturesList,
+    themesList = themes.objects.all
+    for theme in themesList:
+        if not theme.parent:
+
+    context = { 
+                'picturesList': picturesList,
+                'themesList': themesList,
                 'language': request.LANGUAGE_CODE,
                 'flag': "galerie/flag/%s.png" % request.LANGUAGE_CODE,
             }

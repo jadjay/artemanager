@@ -1,0 +1,10 @@
+{% load i18n %}
+{% load staticfiles %}
+
+    <div class="blockthemes">
+{% for theme in themesList %}
+      <div class="theme">
+         <p> {{ theme.name }} </p>
+      </div>
+{% endfor %}
+    </div>
