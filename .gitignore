@@ -50,13 +50,13 @@ coverage.xml
 *.pot
 
 # Django stuff:
-migrations/
-admin/
-uploads/
-manage.py
-settings.py
-local_settings.py
-*.sqlite*
+#migrations/
+#admin/
+#uploads/
+#manage.py
+#settings.py
+#local_settings.py
+#*.sqlite*
 *.log
 
 # Sphinx documentation

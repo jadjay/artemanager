@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-11 01:32+0200\n"
+"POT-Creation-Date: 2016-05-15 15:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,21 +18,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: artemanager/settings.py:126
-msgid "French"
-msgstr "Français"
-
-#: artemanager/settings.py:127
+#: artemanager/settings.py:124
 msgid "English"
 msgstr "Anglais"
 
-#: artemanager/settings.py:128
-msgid "Spanish"
-msgstr "Espagnol"
-
-#: artemanager/settings.py:129
-msgid "Reunionese"
-msgstr "Creole"
+#: artemanager/settings.py:125
+msgid "French"
+msgstr "Français"
 
 #: templates/footer.html:3
 msgid "Pour acquérir ces œuvres,"
@@ -46,7 +38,7 @@ msgid "Merci de rentrer en contact avec le photographe"
 msgstr ""
 "Pour acquérir ces œuvres, Merci de rentrer en contact avec le photographe"
 
-#: templates/header.html:2 templates/skeleton.html.py:8
+#: templates/header.html:3 templates/skeleton.html.py:8
 msgid "Galerie"
 msgstr "Galerie"
 
@@ -57,3 +49,9 @@ msgstr "Voici mon application"
 #: templates/test.html:3
 msgid "Hello World"
 msgstr "Bonjour le monde"
+
+#~ msgid "Spanish"
+#~ msgstr "Espagnol"
+
+#~ msgid "Reunionese"
+#~ msgstr "Creole"

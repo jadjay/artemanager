@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: artemanager-1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-11 01:32+0200\n"
+"POT-Creation-Date: 2016-05-15 15:35+0200\n"
 "PO-Revision-Date: 2016-05-07\n"
 "Last-Translator: Jad Jay <jadjay@rachetjay.fr>\n"
 "Language: en\n"
@@ -16,21 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: artemanager/settings.py:126
-msgid "French"
-msgstr "French"
-
-#: artemanager/settings.py:127
+#: artemanager/settings.py:124
 msgid "English"
 msgstr "English"
 
-#: artemanager/settings.py:128
-msgid "Spanish"
-msgstr "Spanish"
-
-#: artemanager/settings.py:129
-msgid "Reunionese"
-msgstr "Reunionese"
+#: artemanager/settings.py:125
+msgid "French"
+msgstr "French"
 
 #: templates/footer.html:3
 msgid "Pour acquérir ces œuvres,"
@@ -40,7 +32,7 @@ msgstr "So as to buy those masterpieces,"
 msgid "Merci de rentrer en contact avec le photographe"
 msgstr "Thanks to get in touch with the photographer"
 
-#: templates/header.html:2 templates/skeleton.html.py:8
+#: templates/header.html:3 templates/skeleton.html.py:8
 msgid "Galerie"
 msgstr "Gallery"
 
@@ -51,3 +43,9 @@ msgstr "This is my application"
 #: templates/test.html:3
 msgid "Hello World"
 msgstr "Hello World"
+
+#~ msgid "Spanish"
+#~ msgstr "Spanish"
+
+#~ msgid "Reunionese"
+#~ msgstr "Reunionese"

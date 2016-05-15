@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-05-11 01:32+0200\n"
+"POT-Creation-Date: 2016-05-15 15:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,20 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: artemanager/settings.py:126
-msgid "French"
-msgstr ""
-
-#: artemanager/settings.py:127
+#: artemanager/settings.py:124
 msgid "English"
 msgstr ""
 
-#: artemanager/settings.py:128
-msgid "Spanish"
-msgstr ""
-
-#: artemanager/settings.py:129
-msgid "Reunionese"
+#: artemanager/settings.py:125
+msgid "French"
 msgstr ""
 
 #: templates/footer.html:3
@@ -41,7 +33,7 @@ msgstr ""
 msgid "Merci de rentrer en contact avec le photographe"
 msgstr ""
 
-#: templates/header.html:2 templates/skeleton.html.py:8
+#: templates/header.html:3 templates/skeleton.html.py:8
 msgid "Galerie"
 msgstr ""
 

@@ -8,6 +8,7 @@ body {
 	position: relative;
 }
 .photo {
+	display: inline-block;
 	position: relative;
 	width: 300px;
 }
@@ -17,6 +18,42 @@ body {
 	top: -23px;
 	left: 235px;
 }
+.textleftheader p {
+	position: absolute;
+	top: 50%;
+}
+.leftheader {
+        background-color: DimGray;
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+	height: 80px;
+	margin: 10px;
+	padding: 2px 0px 2px 10px;
+/*
+	height: 32px;
+	height: inherit; 
+	padding: 1px;
+*/
+}
+.middleheader {
+        background-color: DimGray;
+	display: inline-block;
+	float: center;
+	vertical-align: middle;
+	height: 80px;
+	margin: 10px;
+}
+.rightheader {
+        background-color: DimGray;
+	display: inline-block;
+	float: right;
+	vertical-align: text-top;
+	height: 80px;
+	margin: 10px;
+	padding: 1px;
+}
+
 /* not working
 .ribon {
 	position: absolute;
